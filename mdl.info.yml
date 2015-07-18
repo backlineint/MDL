@@ -1,0 +1,15 @@
+name: MDL
+type: theme
+description: 'A Material Design Lite base theme'
+package: MDL
+base theme: stark
+core: 8.x
+libraries:
+  - mdl/mdl
+#stylesheets-remove:
+#  - core/assets/vendor/normalize-css/normalize.css
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer

@@ -1,0 +1,14 @@
+mdl:
+  # How do we best handle version number if we're using a CDN?
+  version: 1.x
+  css:
+    theme:
+      //storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css: {}
+      # - Todo - figure out why it is necssary to load this font explicitly.
+      //fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en: {}
+      //fonts.googleapis.com/icon?family=Material+Icons: {}
+      css/layout.css: {}
+  js:
+    //storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js: {}
+  #dependencies:
+    #- core/jquery
